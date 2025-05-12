@@ -1,2 +1,26 @@
-"node_modules/" 
-".next/" 
+# Ignorar dependências
+node_modules/
+
+# Ignorar build do Next.js
+.next/
+
+# Ignorar arquivos de lock
+package-lock.json
+pnpm-lock.yaml
+
+# Ignorar arquivos de configuração local
+.env
+.env.local
+.env.*.local
+
+# Ignorar logs
+logs
+*.log
+
+# Ignorar EditorConfig e IDEs
+.vscode/
+.idea/
+
+# Ignorar outros arquivos temporários
+*.swp
+.DS_Store
